@@ -1,2 +1,2 @@
-# WLDatePickerDialog
+# WLDatePicker
 a lib for datepicker

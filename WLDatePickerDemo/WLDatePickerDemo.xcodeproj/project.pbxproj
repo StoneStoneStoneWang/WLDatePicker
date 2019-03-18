@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CECDBE1223F85890045A627 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CECDBE0223F85890045A627 /* AppDelegate.swift */; };
+		6CECDBE3223F85890045A627 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CECDBE2223F85890045A627 /* ViewController.swift */; };
+		6CECDBE6223F85890045A627 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CECDBE4223F85890045A627 /* Main.storyboard */; };
+		6CECDBE8223F858A0045A627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CECDBE7223F858A0045A627 /* Assets.xcassets */; };
+		6CECDBEB223F858A0045A627 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CECDBE9223F858A0045A627 /* LaunchScreen.storyboard */; };
+		6CECDBF6223F858A0045A627 /* WLDatePickerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CECDBF5223F858A0045A627 /* WLDatePickerDemoTests.swift */; };
+		6CECDC01223F858B0045A627 /* WLDatePickerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CECDC00223F858B0045A627 /* WLDatePickerDemoUITests.swift */; };
+		6CECDC10223F85A60045A627 /* WLDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CECDC0F223F85A60045A627 /* WLDatePicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CECDBF2223F858A0045A627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CECDBD5223F85890045A627 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CECDBDC223F85890045A627;
+			remoteInfo = WLDatePickerDemo;
+		};
+		6CECDBFD223F858A0045A627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CECDBD5223F85890045A627 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CECDBDC223F85890045A627;
+			remoteInfo = WLDatePickerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CECDBDD223F85890045A627 /* WLDatePickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLDatePickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CECDBE0223F85890045A627 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CECDBE2223F85890045A627 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6CECDBE5223F85890045A627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CECDBE7223F858A0045A627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CECDBEA223F858A0045A627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CECDBEC223F858A0045A627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CECDBF1223F858A0045A627 /* WLDatePickerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLDatePickerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CECDBF5223F858A0045A627 /* WLDatePickerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLDatePickerDemoTests.swift; sourceTree = "<group>"; };
+		6CECDBF7223F858A0045A627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CECDBFC223F858A0045A627 /* WLDatePickerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLDatePickerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CECDC00223F858B0045A627 /* WLDatePickerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLDatePickerDemoUITests.swift; sourceTree = "<group>"; };
+		6CECDC02223F858B0045A627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CECDC0F223F85A60045A627 /* WLDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLDatePicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CECDBDA223F85890045A627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CECDBEE223F858A0045A627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CECDBF9223F858A0045A627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CECDBD4223F85890045A627 = {
+			isa = PBXGroup;
+			children = (
+				6CECDBDF223F85890045A627 /* WLDatePickerDemo */,
+				6CECDBF4223F858A0045A627 /* WLDatePickerDemoTests */,
+				6CECDBFF223F858A0045A627 /* WLDatePickerDemoUITests */,
+				6CECDBDE223F85890045A627 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CECDBDE223F85890045A627 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CECDBDD223F85890045A627 /* WLDatePickerDemo.app */,
+				6CECDBF1223F858A0045A627 /* WLDatePickerDemoTests.xctest */,
+				6CECDBFC223F858A0045A627 /* WLDatePickerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CECDBDF223F85890045A627 /* WLDatePickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6CECDC0E223F859B0045A627 /* Code */,
+				6CECDBE0223F85890045A627 /* AppDelegate.swift */,
+				6CECDBE2223F85890045A627 /* ViewController.swift */,
+				6CECDBE4223F85890045A627 /* Main.storyboard */,
+				6CECDBE7223F858A0045A627 /* Assets.xcassets */,
+				6CECDBE9223F858A0045A627 /* LaunchScreen.storyboard */,
+				6CECDBEC223F858A0045A627 /* Info.plist */,
+			);
+			path = WLDatePickerDemo;
+			sourceTree = "<group>";
+		};
+		6CECDBF4223F858A0045A627 /* WLDatePickerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CECDBF5223F858A0045A627 /* WLDatePickerDemoTests.swift */,
+				6CECDBF7223F858A0045A627 /* Info.plist */,
+			);
+			path = WLDatePickerDemoTests;
+			sourceTree = "<group>";
+		};
+		6CECDBFF223F858A0045A627 /* WLDatePickerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6CECDC00223F858B0045A627 /* WLDatePickerDemoUITests.swift */,
+				6CECDC02223F858B0045A627 /* Info.plist */,
+			);
+			path = WLDatePickerDemoUITests;
+			sourceTree = "<group>";
+		};
+		6CECDC0E223F859B0045A627 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				6CECDC0F223F85A60045A627 /* WLDatePicker.swift */,
+			);
+			name = Code;
+			path = ../../Code;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CECDBDC223F85890045A627 /* WLDatePickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CECDC05223F858B0045A627 /* Build configuration list for PBXNativeTarget "WLDatePickerDemo" */;
+			buildPhases = (
+				6CECDBD9223F85890045A627 /* Sources */,
+				6CECDBDA223F85890045A627 /* Frameworks */,
+				6CECDBDB223F85890045A627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WLDatePickerDemo;
+			productName = WLDatePickerDemo;
+			productReference = 6CECDBDD223F85890045A627 /* WLDatePickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CECDBF0223F858A0045A627 /* WLDatePickerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CECDC08223F858B0045A627 /* Build configuration list for PBXNativeTarget "WLDatePickerDemoTests" */;
+			buildPhases = (
+				6CECDBED223F858A0045A627 /* Sources */,
+				6CECDBEE223F858A0045A627 /* Frameworks */,
+				6CECDBEF223F858A0045A627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CECDBF3223F858A0045A627 /* PBXTargetDependency */,
+			);
+			name = WLDatePickerDemoTests;
+			productName = WLDatePickerDemoTests;
+			productReference = 6CECDBF1223F858A0045A627 /* WLDatePickerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6CECDBFB223F858A0045A627 /* WLDatePickerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CECDC0B223F858B0045A627 /* Build configuration list for PBXNativeTarget "WLDatePickerDemoUITests" */;
+			buildPhases = (
+				6CECDBF8223F858A0045A627 /* Sources */,
+				6CECDBF9223F858A0045A627 /* Frameworks */,
+				6CECDBFA223F858A0045A627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CECDBFE223F858A0045A627 /* PBXTargetDependency */,
+			);
+			name = WLDatePickerDemoUITests;
+			productName = WLDatePickerDemoUITests;
+			productReference = 6CECDBFC223F858A0045A627 /* WLDatePickerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CECDBD5223F85890045A627 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "three stone 王";
+				TargetAttributes = {
+					6CECDBDC223F85890045A627 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					6CECDBF0223F858A0045A627 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6CECDBDC223F85890045A627;
+					};
+					6CECDBFB223F858A0045A627 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6CECDBDC223F85890045A627;
+					};
+				};
+			};
+			buildConfigurationList = 6CECDBD8223F85890045A627 /* Build configuration list for PBXProject "WLDatePickerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CECDBD4223F85890045A627;
+			productRefGroup = 6CECDBDE223F85890045A627 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CECDBDC223F85890045A627 /* WLDatePickerDemo */,
+				6CECDBF0223F858A0045A627 /* WLDatePickerDemoTests */,
+				6CECDBFB223F858A0045A627 /* WLDatePickerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CECDBDB223F85890045A627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CECDBEB223F858A0045A627 /* LaunchScreen.storyboard in Resources */,
+				6CECDBE8223F858A0045A627 /* Assets.xcassets in Resources */,
+				6CECDBE6223F85890045A627 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CECDBEF223F858A0045A627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CECDBFA223F858A0045A627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CECDBD9223F85890045A627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CECDBE3223F85890045A627 /* ViewController.swift in Sources */,
+				6CECDC10223F85A60045A627 /* WLDatePicker.swift in Sources */,
+				6CECDBE1223F85890045A627 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CECDBED223F858A0045A627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CECDBF6223F858A0045A627 /* WLDatePickerDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CECDBF8223F858A0045A627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CECDC01223F858B0045A627 /* WLDatePickerDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CECDBF3223F858A0045A627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CECDBDC223F85890045A627 /* WLDatePickerDemo */;
+			targetProxy = 6CECDBF2223F858A0045A627 /* PBXContainerItemProxy */;
+		};
+		6CECDBFE223F858A0045A627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CECDBDC223F85890045A627 /* WLDatePickerDemo */;
+			targetProxy = 6CECDBFD223F858A0045A627 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CECDBE4223F85890045A627 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CECDBE5223F85890045A627 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CECDBE9223F858A0045A627 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CECDBEA223F858A0045A627 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CECDC03223F858B0045A627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CECDC04223F858B0045A627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CECDC06223F858B0045A627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WLDatePickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssht.WLDatePickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CECDC07223F858B0045A627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WLDatePickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssht.WLDatePickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6CECDC09223F858B0045A627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WLDatePickerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssht.WLDatePickerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WLDatePickerDemo.app/WLDatePickerDemo";
+			};
+			name = Debug;
+		};
+		6CECDC0A223F858B0045A627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WLDatePickerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssht.WLDatePickerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WLDatePickerDemo.app/WLDatePickerDemo";
+			};
+			name = Release;
+		};
+		6CECDC0C223F858B0045A627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WLDatePickerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssht.WLDatePickerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WLDatePickerDemo;
+			};
+			name = Debug;
+		};
+		6CECDC0D223F858B0045A627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WLDatePickerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssht.WLDatePickerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WLDatePickerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CECDBD8223F85890045A627 /* Build configuration list for PBXProject "WLDatePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CECDC03223F858B0045A627 /* Debug */,
+				6CECDC04223F858B0045A627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CECDC05223F858B0045A627 /* Build configuration list for PBXNativeTarget "WLDatePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CECDC06223F858B0045A627 /* Debug */,
+				6CECDC07223F858B0045A627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CECDC08223F858B0045A627 /* Build configuration list for PBXNativeTarget "WLDatePickerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CECDC09223F858B0045A627 /* Debug */,
+				6CECDC0A223F858B0045A627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CECDC0B223F858B0045A627 /* Build configuration list for PBXNativeTarget "WLDatePickerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CECDC0C223F858B0045A627 /* Debug */,
+				6CECDC0D223F858B0045A627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CECDBD5223F85890045A627 /* Project object */;
+}

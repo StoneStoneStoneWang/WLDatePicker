@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "WLDatePicker"
-s.version      = "0.0.2"
+s.version      = "0.0.3"
 s.summary      = "A Lib For date picker."
 s.description  = <<-DESC
 WLDatePicker是时间选择工具类。
@@ -14,7 +14,7 @@ s.author             = { "StoneStoneStoneWang" => "yuanxingfu1314@163.com" }
 s.platform     = :ios, "9.0"
 s.ios.deployment_target = "9.0"
 
-s.swift_version = '4.2'
+s.swift_version = '5.0'
 
 s.frameworks = 'UIKit', 'Foundation'
 
